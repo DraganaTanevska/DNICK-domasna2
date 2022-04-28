@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прашања</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/register-css.css">
+    <link rel="stylesheet" href="../css/home-css.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="../js/header-footer-function.js"></script>
+    <style>
+        #div2 {
+            font-family: sans-serif;
+            background-color: rgba(0, 0, 0, 0.1);
+            align-items: flex-start;
+            margin: 2% 20% 2px;
+            padding: 2%;
+            border-radius: 1%;
+        }
+        fieldset{
+         margin-bottom: 50px;
+        }
+        label {
+            margin-right: 15px;
+            line-height: 32px;
+        }
+
+        input {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+
+            border: 2px solid #999;
+            transition: 0.2s all linear;
+            margin-right: 5px;
+
+            position: relative;
+            top: 4px;
+        }
+
+        input:checked {
+            border: 6px solid black;
+        }
+
+        button,
+        legend {
+            color: rgba(88,195,132,0.82);
+            padding: 5px 10px;
+            border-radius: 0;
+            border: 0;
+            font-size: 14px;
+            margin-top: 2%;
+        }
+
+        button:hover,
+        button:focus {
+            color: #999;
+        }
+
+        button:active {
+            background-color: white;
+            color: black;
+            outline: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<!--start of Navigation bar-->
+<div id="nav-placeholder">
+</div>
+<!--end of Navigation bar-->
+
+<div id="div2">
+<form>
+<fieldset>
+    <legend>Прашање 1:</legend>
+
+    <div >
+        <input type="radio" id="answer1" name="drone" value="answer1"
+               checked>
+        <label for="answer1">Answer 1</label>
+    </div>
+
+    <div>
+        <input type="radio" id="answer2" name="drone" value="answer2"
+               checked>
+        <label for="answer2">Answer 2</label>
+    </div>
+
+    <div>
+        <input type="radio" id="answer3" name="drone" value="answer3"
+               checked>
+        <label for="answer3">Answer 3</label>
+    </div>
+
+</fieldset>
+
+    <legend>Прашање 2:</legend>
+
+    <div >
+        <input type="radio" id="answer4" name="drone2" value="answer1"
+               checked>
+        <label for="answer4">Answer 1</label>
+    </div>
+
+    <div>
+        <input type="radio" id="answer5" name="drone2" value="answer2"
+               checked>
+        <label for="answer5">Answer 2</label>
+    </div>
+
+    <div>
+        <input type="radio" id="answer6" name="drone2" value="answer3"
+               checked>
+        <label for="answer6">Answer 3</label>
+    </div>
+
+    </fieldset>
+    <legend>Прашање 3:</legend>
+
+    <div >
+        <input type="radio" id="answer7" name="drone3" value="answer7"
+               checked>
+        <label for="answer7">Answer 1</label>
+    </div>
+
+    <div>
+        <input type="radio" id="answer8" name="drone3" value="answer8"
+               checked>
+        <label for="answer8">Answer 2</label>
+    </div>
+
+    <div>
+        <input type="radio" id="answer9" name="drone3" value="answer9"
+               checked>
+        <label for="answer9">Answer 3</label>
+    </div>
+
+    </fieldset>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+</div>
+</body>
+</html>
